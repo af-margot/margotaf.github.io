@@ -13,6 +13,16 @@ p.parentNode.insertBefore(o,p)}(window,document,"script",0,"AF","pba","d3a431e1-
         }
         </script>
 
+<script>
+        window.onload = function () {
+            document.getElementById('checkout').addEventListener('click', function () {
+                AF('pba', 'event' {eventType: 'EVENT',eventCategory: 'conversion', eventName: 'checkout'});
+            });
+        }
+
+    </script>
+
+ <button id='checkout'>Checkout</button>
 
 <br> <a href="testSDK://test1"> url scheme com.example.mar </a> <br><br>
 
